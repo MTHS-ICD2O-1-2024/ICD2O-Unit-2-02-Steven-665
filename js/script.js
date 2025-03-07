@@ -1,12 +1,13 @@
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: yi.zhou
+// Created on: Mar 2025
 // This file contains the JS functions for index.html
 
 /**
- * Displays an alert with the message "Hello, World!"
+ * Do basic math.
  */
-function myButtonClicked() {
-  alert("Hello, World!")
+function doMathClicked() {
+  document.getElementById("area-math").innerHTML = "<p>The area is: " + (3 * 5) + " cm².</p>"
+  document.getElementById("perimeter-math").innerHTML = "<p>The perimeter is: " + (2 * (3 + 5)) + " cm.</p>"  
 }
