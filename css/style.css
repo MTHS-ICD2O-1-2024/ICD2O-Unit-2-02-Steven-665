@@ -3,6 +3,9 @@
 * This file contains the CSS for index.html
 */
 
+html{
+  font-size: 15px;
+}
 .mdl-layout__header-row {
   justify-content: center;
   padding: 0;
@@ -38,4 +41,8 @@ img {
 
 body {
   background-color: rgb(104, 211, 103);
+}
+
+#rectangle{
+  font-size: 2rem;
 }
